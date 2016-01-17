@@ -1,0 +1,6 @@
+--require ./test/helpers/test.js
+--slow 5000
+--timeout 25000
+--check-leaks
+--recursive
+--no-exit
