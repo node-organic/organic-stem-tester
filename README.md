@@ -30,7 +30,7 @@ $ git commit
 require('organic-stem-tester')
 
 var stem = new StemSkeleton('/home/my-stem-seed')
-stem.mockTestFolder(function (err) {}) // mocks a test folder at /tmp
+stem.mockTestFolder(function (err) {}) // mocks a test folder at /tmp, while retaining linked node modules
 stem.removeMockedFolder(function (err) {}) // removes the test folder
 
 // bellow are executed towards the test folder as cwd
